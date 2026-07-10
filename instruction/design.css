@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'HomeVideo-Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('HomeVideo-Regular'), url('fonts/HomeVideo-Regular.otf') format('opentype');
+}
+@font-face {
+    font-family: 'TDAText';
+    font-style: normal;
+    font-weight: normal;
+    src: local('TDAText'), url('fonts/TDAText.ttf') format('truetype');
+}
+
+* {
+    text-align: center;
+    font-family: 'TDAText';
+    font-size: 20px;
+}
+
+.title {
+    margin-top: 50px;
+}
+
+.title h1 {
+    margin: auto 0;
+    font-family: 'HomeVideo-Regular';
+    font-size: 60px;
+}
+
+.title p {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 30px;
+}
+
+.block {
+    margin-top: 100px;
+}
+
+.block h1 {
+    margin: auto 0;
+    font-family: 'TDAText';
+    font-size: 36px;
+}
